@@ -1,0 +1,134 @@
+@media screen and (max-width: 1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about_blocks{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+
+    #exp,.exp_container{
+        margin-top: 2rem;
+    }
+
+    #profile, .about_container{
+        display: block;
+    }
+
+    .arrow{
+        display: none;
+    }
+    section, .about_container{
+        height: fit-content;
+    }
+    section{
+        margin: 0.5%;
+    }
+    .pic_container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about_blocks{
+        margin-top: 0;
+    }
+
+    .pic_about{
+        display: flex;
+        justify-content: center;
+    }
+    .about_text{
+        text-align: center;
+        padding: 1rem;
+    }
+    .d_container{
+        border: white;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #contact,
+    footer{
+        height: 40vh;
+    }
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about_blocks,.contact_info,.btns{
+        flex-wrap: wrap;
+    }
+
+    .email p,.linked p,.nav-links li a{
+        font-size: 1rem;
+    }
+    .subtitle{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .aboutpic{
+        width: auto;
+        height: 75vw;
+        border-radius: 50%;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        transition: all ease-in-out 300ms;
+    }
+    .pic_about{
+        display: flex;
+        justify-content: center;
+    }
+    .exp_container{
+        padding: 2rem;
+    }
+    .t2{
+        font-size: 1.25rem;
+    }
+    .title1{
+        font-size: 2rem;
+    }
+    .about_text{
+        text-align: center;
+        padding: 1rem;
+    }
+    .about_blocks{
+        gap: 0;
+    }
+    .d_container{
+        border: white;
+    }
+    .contact_container{
+        flex-direction: column;
+        border-radius: 4.5rem;
+        gap: 0;
+        margin: 1rem;
+    }
+    .blocks{
+        gap: 0;
+    }
+
+}
